@@ -1,0 +1,11 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/form" xmlns:shim="/shim/layout">
+  <l:layout title="${%about(app.VERSION)}" norefresh="true">
+    <l:main-panel>
+      <h1>Am I working</h1>
+      <p>
+        <shim:icon url="${resURL}/images/jenkins.png"/>
+      </p>
+    </l:main-panel>
+  </l:layout>
+</j:jelly>
